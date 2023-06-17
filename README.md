@@ -1,6 +1,16 @@
 # 8-Puzzle-A-Star-Algorithm
 8 Puzzle Python Implementation Using A* Algorithm
 
+# Rules for solving the puzzle.
+Instead of moving the tiles in the empty space, we can visualize moving the empty space in place of the tile, basically swapping the tile with the empty space. The empty space can only move in four directions viz.,
+
+1. Up
+2. Down
+3. Right or
+4. Left
+
+The empty space cannot move diagonally and can take only one step at a time (i.e. move the empty space one position at a time)
+
 # A* Algorithm
 
 A* is a computer algorithm that is widely used in pathfinding and graph traversal, 
@@ -45,4 +55,3 @@ Note: The actual time and space complexity may vary depending on the specific pu
 
 Overall, the code is well-structured and implements the A* algorithm for solving puzzles.
 It would be helpful to have additional information about the specific puzzle being solved to provide more accurate time and space complexity analysis.
-![Alt text](8-puzzle-problem-in-table.jpg)
